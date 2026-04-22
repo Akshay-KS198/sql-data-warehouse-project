@@ -35,7 +35,7 @@ BEGIN
 		TRUNCATE TABLE bronze.crm_cust_info;
 		PRINT '>> Bulk Inserting the table: bronze.crm_cust_info';
 		BULK INSERT bronze.crm_cust_info
-		FROM 'C:\Users\akshay.ks\Desktop\cust_info.csv'
+		FROM '(--File Location in the device)'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
@@ -50,7 +50,7 @@ BEGIN
 		TRUNCATE TABLE bronze.crm_prd_info;
 		PRINT '>> Bulk Inserting the table: bronze.crm_prod_info';
 		BULK INSERT bronze.crm_prd_info
-		FROM 'C:\Users\akshay.ks\Desktop\prd_info.csv'
+		FROM '(--File Location in the device)'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
@@ -65,7 +65,7 @@ BEGIN
 		TRUNCATE TABLE bronze.crm_sales_details;
 		PRINT '>> Bulk Inserting the table: bronze.crm_sales_details';
 		BULK INSERT bronze.crm_sales_details
-		FROM 'C:\Users\akshay.ks\Desktop\sales_details.csv'
+		FROM '(--File Location in the device)'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
@@ -83,7 +83,7 @@ BEGIN
 		TRUNCATE TABLE bronze.erp_cust_az12;
 		PRINT '>> Bulk Inserting the table: bronze.erp_cust_az12'
 		BULK INSERT bronze.erp_cust_az12
-		FROM 'C:\Users\akshay.ks\Desktop\cust_az12.csv'
+		FROM '(--File Location in the device)'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
@@ -97,7 +97,7 @@ BEGIN
 		TRUNCATE TABLE bronze.erp_loc_az101;
 		PRINT '>> Bulk Inserting the table: bronze.erp_loc_az101'
 		BULK INSERT bronze.erp_loc_az101
-		FROM 'C:\Users\akshay.ks\Desktop\loc_a101.csv'
+		FROM '(--File Location in the device)'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
@@ -112,7 +112,7 @@ BEGIN
 		TRUNCATE TABLE bronze.erp_px_cat_g1v2;
 		PRINT '>> Bulk Inserting the table: bronze.erp_px_cat_g1v2';
 		BULK INSERT bronze.erp_px_cat_g1v2
-		FROM 'C:\Users\akshay.ks\Desktop\px_cat_g1v2.csv'
+		FROM '(--File Location in the device)'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
