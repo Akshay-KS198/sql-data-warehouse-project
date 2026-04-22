@@ -1,0 +1,2 @@
+The data flow diagram represents the end-to-end data transformation pipeline, starting from the Bronze layer, where raw data is ingested, moving to the Silver layer, where data is cleaned and transformed, and finally to the Gold layer, where dimension and fact tables are created using a star schema to support analytical reporting.
+<img width="900" height="635" alt="image" src="https://github.com/user-attachments/assets/9d4b069c-fbf2-4b4c-9875-10d1a5a302bf" />
